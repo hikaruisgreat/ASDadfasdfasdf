@@ -1,0 +1,144 @@
+element.style {
+    width: 22.2%;
+}
+.container {
+    text-align: center;
+    position: relative;
+    width: 17.7%;
+    /* height: 170px; */
+    height: auto;
+    border-radius: 15px;
+    line-height: 175%;
+    text-decoration: hidden;
+    background-color: var(--sidebar-color);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    padding-bottom: 15px;
+    margin-top: 7px;
+    margin-left: 3px;
+    display: inline-table;
+    color: var(--text-color);
+    text-overflow: ellipsis;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+div {
+    display: block;
+}
+
+body.dark {
+    --body-color: #18191a;
+    --sidebar-color: #242526;
+    --primary-color: #3a3b3c;
+    --primary-color-light: #3a3b3c;
+    --toggle-color: #fff;
+    --text-color: #ccc;
+    --primary-text-color: #ccc;
+}
+
+body {
+    min-height: 100vh;
+    background-color: var(--body-color);
+    transition: var(--tran-05);
+    text-align: center;
+    overflow: hidden;
+    display: none;
+}
+
+:root {
+    --body-color: #E4E9F7;
+    --sidebar-color: #FFF;
+    --primary-color: #695CFE;
+    --primary-color-light: #F6F5FF;
+    --toggle-color: #DDD;
+    --text-color: #707070;
+    --tran-03: all 0.2s ease;
+    --tran-03: all 0.3s ease;
+    --tran-04: all 0.3s ease;
+    --tran-05: all 0.3s ease;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 3px;
+    transition: var(--tran-03);
+}
+
+::selection {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+#fav_icon {
+    opacity: 0;
+    font-size: 30px;
+    padding-right: 3px;
+    transform: translateY(3px);
+    z-index: 100;
+    position: absolute;
+    right: 10px;
+    text-shadow: 6px 6px 10px rgba(0, 0, 0, 0.3), -6px -6px 10px rgba(0, 0, 0, 0.3), -6px 6px 10px rgba(0, 0, 0, 0.3), 6px -6px 10px rgba(0, 0, 0, 0.3);
+}
+
+.bx {
+    font-family: boxicons!important;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+    display: inline-block;
+    text-transform: none;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+i {
+    font-style: italic;
+}
+
+.bx-star:before {
+    content: "\ec27";
+}
+
+.game_img {
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background-color: var(--body-color);
+}
+
+.game_title {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+}
+
+div {
+    display: block;
+}
+.game_genre {
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+    line-height: 50%;
+}
